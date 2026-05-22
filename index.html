@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Дизайн-студия | О нас</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="author" href="https://vk.com/osssknn">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ГОРИЗОНТАЛЬНОЕ ДВУХУРОВНЕВОЕ МЕНЮ -->
+<div class="top-navbar">
+  <div class="nav-container">
+    <ul class="nav-links">
+      <li><a href="#home" title="Главная">Главная</a></li>
+      <li><a href="#about" title="О нас">О нас</a></li>
+      <li class="dropdown">
+        <a href="#" title="Услуги">Услуги ▾</a>
+        <ul class="submenu">
+          <li><a href="#services" title="Дизайн интерьера">Дизайн интерьера</a></li>
+          <li><a href="#services" title="Веб-дизайн">Веб-дизайн</a></li>
+          <li><a href="#services" title="Брендинг">Брендинг</a></li>
+        </ul>
+      </li>
+      <li><a href="#projects-show" title="Проекты">Проекты</a></li>
+      <li><a href="#trends" title="Тренды">Тренды</a></li>
+      <li><a href="#contact" title="Контакты">Контакты</a></li>
+      <li><a href="404.jpg" target="_blank" title="Оформить заказ">Оформить заказ</a></li>
+      <li><a href="developer.html" target="_blank" title="Разработчик">Разработчик</a></li>
+      <li><a href="#" id="sitemapTopBtn" title="Карта сайта">Карта сайта</a></li>
+      <li><a href="https://bartc.by/index.php/ru/" target="_blank" rel="noopener noreferrer" title="Сайт колледжа">Колледж</a></li>
+      <li><a href="#" class="register-nav-btn" id="openRegisterBtn1" title="Регистрация">Регистрация</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- МОБИЛЬНОЕ МЕНЮ -->
+<div class="hamburger-container">
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <label for="menu-toggle" class="menu-icon" aria-label="Меню"><span></span></label>
+  <div class="overlay-blur"></div>
+  <nav class="menu-nav">
+    <ul class="menu-list">
+      <li><a href="#home" class="menu-link" title="Главная">Главная</a></li>
+      <li><a href="#about" class="menu-link" title="О нас">О нас</a></li>
+      <li class="mobile-dropdown">
+        <a href="#" class="menu-link" title="Услуги">Услуги ▾</a>
+        <ul class="mobile-submenu">
+          <li><a href="#services" class="menu-link" title="Дизайн интерьера">Дизайн интерьера</a></li>
+          <li><a href="#services" class="menu-link" title="Веб-дизайн">Веб-дизайн</a></li>
+          <li><a href="#services" class="menu-link" title="Брендинг">Брендинг</a></li>
+        </ul>
+      </li>
+      <li><a href="#projects-show" class="menu-link" title="Проекты">Проекты</a></li>
+      <li><a href="#trends" class="menu-link" title="Тренды">Тренды и идеи</a></li>
+      <li><a href="#contact" class="menu-link" title="Контакты">Контакты</a></li>
+      <li><a href="404.jpg" target="_blank" class="menu-link" title="Оформить заказ">Оформить заказ</a></li>
+      <li><a href="developer.html" target="_blank" class="menu-link" title="Разработчик">Разработчик</a></li>
+      <li><a href="#" class="menu-link" id="sitemapMenuBtn" title="Карта сайта">Карта сайта</a></li>
+      <li><a href="https://bartc.by/index.php/ru/" target="_blank" class="menu-link" title="Сайт колледжа">Барановичский колледж</a></li>
+      <li><a href="#" class="menu-link" id="openRegisterBtn2" title="Регистрация">Регистрация</a></li>
+    </ul>
+    <div class="note-mock">✨ Клик по любому пункту меню закрывает панель</div>
+  </nav>
+</div>
+
+<div class="content">
+  <section class="hero" id="home">
+    <h1>Дизайн-студия <span class="gold-badge">премиум</span> класса</h1>
+    <p>Создаём уникальные интерьеры, бренды и коллекции одежды с 2015 года. Более 300 успешных проектов по всему миру.</p>
+  </section>
+
+  <!-- БОЛЬШАЯ КНОПКА РЕГИСТРАЦИИ -->
+  <div class="big-register-btn">
+    <button class="btn-register-large" id="openRegisterBtn3">Зарегистрироваться</button>
+  </div>
+
+  <!-- ТЕКСТОВЫЙ БЛОК (>1000 символов) -->
+  <section class="section-block">
+    <h2 class="section-title">Почему выбирают нас</h2>
+    <div class="about-text">
+      <p>Дизайн-студия DesignMaker — это команда профессионалов, объединённых любовью к красоте и функциональности. Мы работаем в трёх направлениях: интерьеры, графический дизайн и создание капсульных коллекций одежды. Наш подход базируется на глубоком анализе потребностей клиента и трендов.</p>
+      <p>Каждый проект мы начинаем с исследования: изучаем пространство, бренд, целевую аудиторию. Для интерьеров используем 3D-визуализацию и подбор точных материалов. В брендинге разрабатываем уникальные айдентику, паттерны, гайдлайны. В моде — от идеи до лекал и образцов.</p>
+      <p>За 10 лет работы мы реализовали более 300 проектов: от лофт-квартир до полного ребрендинга крупных компаний. Наши работы публиковались в журналах «Дизайн интерьера», «Брендинг сегодня», «Собака.ru». Мы лауреаты премии «Золотое сечение» 2024 и финалисты международного конкурса A' Design Award.</p>
+      <p>В 2026 году мы запускаем новое направление — цифровой дизайн с элементами генеративного искусства. Создаём интерактивные инсталляции, NFT-коллекции и AR-фильтры. Следите за нашими новостями в социальных сетях!</p>
+      <p>Мы ценим каждого клиента и гарантируем индивидуальный подход. Наши цены прозрачны, а сроки соблюдаются. Предоставляем гарантию на работы и постпроектное сопровождение. Свяжитесь с нами, и мы превратим ваши идеи в реальность.</p>
+    </div>
+  </section>
+
+  <section class="section-block" id="about">
+    <h2 class="section-title">О нас</h2>
+    <p class="about-text">Мы — команда дизайнеров, архитекторов и визионеров. Создаём гармонию в интерьере, графике и моде с 2015 года. Наше портфолио насчитывает более 300 успешных проектов.</p>
+    <div class="carousel-container">
+      <div class="carousel-slides" id="carouselSlides">
+        <div class="carousel-slide"><img src="photo1.jpg" alt="Проект 1" class="gallery-img" title="Нажмите для увеличения"></div>
+        <div class="carousel-slide"><img src="photo2.jpg" alt="Проект 2" class="gallery-img" title="Нажмите для увеличения"></div>
+        <div class="carousel-slide"><img src="photo3.jpg" alt="Проект 3" class="gallery-img" title="Нажмите для увеличения"></div>
+        <div class="carousel-slide"><img src="photo4.jpg" alt="Проект 4" class="gallery-img" title="Нажмите для увеличения"></div>
+        <div class="carousel-slide"><img src="photo5.jpg" alt="Проект 5" class="gallery-img" title="Нажмите для увеличения"></div>
+        <div class="carousel-slide"><img src="photo6.jpg" alt="Проект 6" class="gallery-img" title="Нажмите для увеличения"></div>
+        <div class="carousel-slide"><img src="photo7.jpg" alt="Проект 7" class="gallery-img" title="Нажмите для увеличения"></div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveCarousel(-1)" title="Назад">‹</button>
+      <button class="carousel-btn next" onclick="moveCarousel(1)" title="Вперёд">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </section>
+
+  <section class="section-block" id="projects-show">
+    <h2 class="section-title">Наши проекты</h2>
+    <div class="card-grid">
+      <div class="demo-card"><h3>Loft интерьер</h3><p>Минимализм, металл, уютные текстуры. Проект года.</p></div>
+      <div class="demo-card"><h3>Брендинг MORPH</h3><p>Айдентика для стартапа, адаптивный паттерн.</p></div>
+      <div class="demo-card"><h3>Капсула «Структура»</h3><p>Коллекция одежды с архитектурным кроем.</p></div>
+    </div>
+  </section>
+
+  <section class="section-block" id="trends">
+    <h2 class="section-title">Тренды 2026</h2>
+    <div class="card-grid">
+      <div class="demo-card"><h3>Биофилия</h3><p>Природные формы, органика в интерьере и моде.</p></div>
+      <div class="demo-card"><h3>Апсайклинг</h3><p>Переработка и устойчивая мода.</p></div>
+      <div class="demo-card"><h3>Гибридный дизайн</h3><p>Цифровое ремесло + генеративные технологии.</p></div>
+    </div>
+  </section>
+
+  <section class="section-block" id="services">
+    <h2 class="section-title">Услуги</h2>
+    <div class="card-grid">
+      <div class="demo-card"><h3>Дизайн-сессия 1ч</h3><p>Консультация по интерьеру / бренду / коллекции.</p><div class="price-tag">$120</div></div>
+      <div class="demo-card"><h3>Айдентика полный цикл</h3><p>Логотип, паттерны, гайдлайн.</p><div class="price-tag">от $890</div></div>
+      <div class="demo-card"><h3>Веб-дизайн & UI/UX</h3><p>Сайты, интерфейсы, анимация.</p><div class="price-tag">от $1200</div></div>
+    </div>
+  </section>
+
+  <section class="section-block" id="contact">
+    <h2 class="section-title">Связь с нами</h2>
+    <div class="contact-info">
+      <div><a href="mailto:studio@designmaker.ru" title="Написать нам">studio@designmaker.ru</a></div>
+      <div><a href="https://vk.com/osssknn" target="_blank" rel="noopener" title="VK">VK: osssknn</a></div>
+      <div><a href="https://www.instagram.com/osssknndesign/" target="_blank" rel="noopener" title="Instagram">@osssknndesign</a></div>
+      <div><a href="tel:+375259502868" title="Позвонить">+375259502868</a></div>
+      <div><a href="https://t.me/designmaker" target="_blank" rel="noopener" title="Telegram">@designmaker</a></div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div>© 2026 Дизайн-студия DesignMaker. Все права защищены.</div>
+  <div class="footer-links">
+    <a href="privacy.html" title="Политика конфиденциальности">Политика конфиденциальности</a> |
+    <a href="sitemap.html" title="Карта сайта">Карта сайта</a> |
+    <a href="#" id="downloadSourceLink" title="Скачать исходные коды">Скачать исходные коды (.zip)</a> |
+    <a href="https://vk.com/osssknn" target="_blank" rel="noopener" title="VK">VK</a> |
+    <a href="https://www.instagram.com/osssknndesign/" target="_blank" rel="noopener" title="Instagram">Instagram</a> |
+    <a href="https://t.me/designmaker" target="_blank" rel="noopener" title="Telegram">Telegram</a>
+  </div>
+</footer>
+
+<!-- МОДАЛЬНОЕ ОКНО РЕГИСТРАЦИИ/ВХОДА -->
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('login')">Вход</button>
+      <button class="tab-btn" onclick="switchTab('register')">Регистрация</button>
+    </div>
+    <!-- Форма входа -->
+    <form class="auth-form active" id="loginForm">
+      <h3>Вход в аккаунт</h3>
+      <input type="email" id="loginEmail" placeholder="Email" required>
+      <input type="password" id="loginPassword" placeholder="Пароль" required>
+      <button type="submit">Войти</button>
+      <div class="form-message" id="loginMessage"></div>
+    </form>
+    <!-- Форма регистрации -->
+    <form class="auth-form" id="registerForm">
+      <h3>Регистрация</h3>
+      <input type="text" id="regName" placeholder="Ваше имя" required>
+      <input type="email" id="regEmail" placeholder="Email" required>
+      <input type="password" id="regPassword" placeholder="Пароль" required>
+      <button type="submit">Зарегистрироваться</button>
+      <div class="form-message" id="regMessage"></div>
+    </form>
+  </div>
+</div>
+
+<!-- МОДАЛКА ДЛЯ УВЕЛИЧЕНИЯ ФОТО -->
+<div id="imageViewer" class="image-modal" onclick="closeImageViewer()">
+  <span class="close-image-modal" onclick="closeImageViewer()">&times;</span>
+  <img class="image-modal-content" id="expandedImg" alt="Увеличенное изображение">
+</div>
+
+<!-- МОДАЛКА КАРТЫ САЙТА -->
+<div id="sitemapModal" class="sitemap-modal">
+  <div class="sitemap-content">
+    <span class="close-sitemap" id="closeSitemapBtn">&times;</span>
+    <h2>Карта сайта</h2>
+    <div class="sitemap-grid">
+      <a href="#home">Главная</a>
+      <a href="#about">О нас</a>
+      <a href="#projects-show">Проекты</a>
+      <a href="#trends">Тренды</a>
+      <a href="#services">Услуги</a>
+      <a href="#contact">Контакты</a>
+      <a href="404.jpg" target="_blank">Оформить заказ</a>
+      <a href="developer.html" target="_blank">Разработчик</a>
+      <a href="privacy.html">Политика</a>
+      <a href="https://bartc.by/index.php/ru/" target="_blank">Колледж</a>
+    </div>
+  </div>
+</div>
+
+<!-- COOKIE БАННЕР -->
+<div id="cookieBanner" class="cookie-banner" style="display: none;">
+  <p>🍪 Мы используем cookies. Продолжая, вы соглашаетесь с <button class="cookie-link" id="openPrivacyFromCookie">Политикой конфиденциальности</button>.</p>
+  <div class="cookie-buttons">
+    <button class="cookie-btn" id="acceptCookies">Принять</button>
+    <button class="cookie-btn decline" id="declineCookies">Отклонить</button>
+  </div>
+</div>
+
+<script>
+  // ========== КАРУСЕЛЬ ==========
+  let currentSlide = 0;
+  const totalSlides = 7;
+  function moveCarousel(direction) {
+    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+    updateCarousel();
+  }
+  function goToSlide(index) {
+    currentSlide = index;
+    updateCarousel();
+  }
+  function updateCarousel() {
+    const slides = document.getElementById('carouselSlides');
+    const dots = document.querySelectorAll('.dot');
+    if (slides) slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+    dots.forEach((dot, index) => { dot.classList.toggle('active', index === currentSlide); });
+  }
+  setInterval(() => moveCarousel(1), 5000);
+  const dotsContainer = document.getElementById('carouselDots');
+  if (dotsContainer) {
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+    }
+  }
+
+  // ========== ГАМБУРГЕР ==========
+  const menuToggle = document.getElementById('menu-toggle');
+  const menuLinks = document.querySelectorAll('.menu-link');
+  const overlayBlur = document.querySelector('.overlay-blur');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => { if (menuToggle) menuToggle.checked = false; });
+  });
+  if (overlayBlur) overlayBlur.addEventListener('click', () => { if (menuToggle) menuToggle.checked = false; });
+
+  // ========== РЕГИСТРАЦИЯ (МОДАЛКА И ОТКРЫТИЕ 404) ==========
+  const authModal = document.getElementById('authModal');
+  const loginForm = document.getElementById('loginForm');
+  const registerForm = document.getElementById('registerForm');
+  const loginMessage = document.getElementById('loginMessage');
+  const regMessage = document.getElementById('regMessage');
+
+  // Открыть модалку (вкладка "Регистрация")
+  function openRegisterModal() {
+    if (authModal) {
+      authModal.style.display = 'flex';
+      switchTab('register');
+      if (loginMessage) loginMessage.textContent = '';
+      if (regMessage) regMessage.textContent = '';
+    }
+  }
+
+  // Закрыть модалку
+  function closeModal() {
+    if (authModal) authModal.style.display = 'none';
+    if (loginForm) loginForm.reset();
+    if (registerForm) registerForm.reset();
+    if (loginMessage) loginMessage.textContent = '';
+    if (regMessage) regMessage.textContent = '';
+  }
+
+  // Переключение вкладок
+  function switchTab(tab) {
+    const tabs = document.querySelectorAll('.tab-btn');
+    tabs.forEach(t => t.classList.remove('active'));
+    if (tab === 'login') {
+      tabs[0]?.classList.add('active');
+      if (loginForm) loginForm.classList.add('active');
+      if (registerForm) registerForm.classList.remove('active');
+    } else {
+      tabs[1]?.classList.add('active');
+      if (registerForm) registerForm.classList.add('active');
+      if (loginForm) loginForm.classList.remove('active');
+    }
+  }
+
+  // Обработка отправки форм (всегда открываем 404.jpg)
+  if (registerForm) {
+    registerForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      window.open('404.jpg', '_blank');
+      closeModal();
+    });
+  }
+  if (loginForm) {
+    loginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      window.open('404.jpg', '_blank');
+      closeModal();
+    });
+  }
+
+  // Привязываем кнопки регистрации к открытию модалки
+  document.getElementById('openRegisterBtn1')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    openRegisterModal();
+  });
+  document.getElementById('openRegisterBtn2')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (menuToggle) menuToggle.checked = false; // закрыть гамбургер
+    openRegisterModal();
+  });
+  document.getElementById('openRegisterBtn3')?.addEventListener('click', () => {
+    openRegisterModal();
+  });
+
+  // Закрытие модалки по клику вне окна
+  window.onclick = function(event) {
+    if (event.target === authModal) closeModal();
+    if (event.target === document.getElementById('sitemapModal')) closeSitemapModal();
+  };
+
+  // ========== УВЕЛИЧЕНИЕ ФОТО ==========
+  function initImageZoom() {
+    const images = document.querySelectorAll('.gallery-img');
+    const viewer = document.getElementById('imageViewer');
+    const expandedImg = document.getElementById('expandedImg');
+    images.forEach(img => {
+      img.style.cursor = 'pointer';
+      img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (expandedImg && viewer) {
+          expandedImg.src = img.src;
+          viewer.style.display = 'flex';
+        }
+      });
+    });
+  }
+  function closeImageViewer() {
+    const viewer = document.getElementById('imageViewer');
+    if (viewer) viewer.style.display = 'none';
+  }
+
+  // ========== COOKIE БАННЕР ==========
+  function initCookieBanner() {
+    const consent = localStorage.getItem('cookieConsent');
+    const banner = document.getElementById('cookieBanner');
+    if (!banner) return;
+    if (consent === null) banner.style.display = 'flex';
+    else banner.style.display = 'none';
+    const acceptBtn = document.getElementById('acceptCookies');
+    const declineBtn = document.getElementById('declineCookies');
+    if (acceptBtn) acceptBtn.onclick = () => { localStorage.setItem('cookieConsent', 'accepted'); banner.style.display = 'none'; };
+    if (declineBtn) declineBtn.onclick = () => { localStorage.setItem('cookieConsent', 'declined'); banner.style.display = 'none'; };
+    const openPrivacy = document.getElementById('openPrivacyFromCookie');
+    if (openPrivacy) openPrivacy.onclick = (e) => { e.preventDefault(); window.location.href = 'privacy.html'; };
+  }
+
+  // ========== КАРТА САЙТА ==========
+  const sitemapModal = document.getElementById('sitemapModal');
+  function openSitemapModal() { if (sitemapModal) sitemapModal.style.display = 'flex'; }
+  function closeSitemapModal() { if (sitemapModal) sitemapModal.style.display = 'none'; }
+  document.getElementById('sitemapTopBtn')?.addEventListener('click', (e) => { e.preventDefault(); openSitemapModal(); });
+  document.getElementById('sitemapMenuBtn')?.addEventListener('click', (e) => { e.preventDefault(); if(menuToggle) menuToggle.checked = false; openSitemapModal(); });
+  document.getElementById('closeSitemapBtn')?.addEventListener('click', closeSitemapModal);
+
+  // ========== ЗАГРУЗКА СТРАНИЦЫ ==========
+  window.addEventListener('load', () => {
+    initImageZoom();
+    initCookieBanner();
+    const downloadLink = document.getElementById('downloadSourceLink');
+    if (downloadLink) {
+      downloadLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('В реальном проекте здесь был бы архив с исходными кодами сайта.\nСейчас файл не загружен для демонстрации.');
+      });
+    }
+  });
+</script>
+</body>
+</html>
